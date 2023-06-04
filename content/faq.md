@@ -1,0 +1,23 @@
+---
+title: Frequently Asked Questions
+layout: faq
+draft: false
+faqs:
+- title: Will updates also be free?
+  answer: Transparency, [link](https://www.example.com) Transparency is at the core of our values, and we believe in setting realistic expectations for our clients. While updates may not be provided for free in the future, we are committed to providing ongoing support and ensuring your satisfaction. As our valued partner, we will always prioritize your needs and strive to deliver the highest quality service. Rest assured, any future updates or enhancements will be accompanied by relevant discounts and high priority attention. Your continued success and satisfaction are our top priorities, and we will work closely with you to find the most suitable solutions that meet your evolving requirements. Contact us today to learn more about our commitment to your long-term satisfaction!
+
+- title: Discounts for students and Non Profit Organizations?
+  answer: At Ruby Red, we believe in supporting students and non-profit organizations in their endeavors. We understand the importance of education and the valuable contributions made by non-profit entities. While we strive to maintain our business margins to ensure the sustainability of our services, we are pleased to offer limited discounts to students and non-profit organizations.Our goal is to foster growth, learning, and positive impact within these communities. If you are a student or a non-profit organization, reach out to us to discuss how we can collaborate and provide you with the best possible solutions at a discounted rate. Together, let's create a brighter future and make a difference in the world.
+
+- title: I need something unique, Can you make it?
+  answer: In a world filled with ordinary, we dare to be extraordinary. At [Company Name], we believe in pushing boundaries, challenging conventions, and redefining what's possible. We are a team of relentless innovators, driven by the pursuit of excellence and driven to create transformative solutions. Our unique approach combines cutting-edge technologies, out-of-the-box thinking, and a deep understanding of your vision. We are here to help you unleash your full potential and bring your boldest ideas to life. Embrace the extraordinary and embark on a journey of limitless possibilities with [Company Name]. Together, let's turn your vision into a reality that stands apart from the rest.
+
+- title: Is there any documentation and support?
+  answer: At Ruby Red, we understand the importance of comprehensive documentation and reliable support. We provide detailed documentation for our solutions, ensuring that you have clear instructions and resources to maximize their benefits. In addition, our dedicated support team is readily available to assist you with any questions, concerns, or technical issues that may arise. We are committed to delivering exceptional customer service and ensuring your satisfaction throughout your journey with us. Rest assured, you can rely on our robust documentation and reliable support to enhance your experience and achieve success.
+
+- title: Any refunds?
+  answer: While our general policy does not promote refunds, we understand that exceptional circumstances may arise. At Ruby Red, we value our customers' satisfaction and strive to address any concerns that may arise with our solutions. We carefully evaluate refund requests on a case-by-case basis, taking into consideration the nature of the issue and our ability to resolve it satisfactorily. Our priority is to ensure that you receive the value and quality you expect from our services. Rest assured, if a refund is deemed appropriate, we will work with you to find a fair and mutually agreeable solution. Your trust and satisfaction are of utmost importance to us, and we are committed to providing the best possible experience for our valued customers.
+
+- title: Do we take college projects?
+  answer: At Ruby Red, we are passionate about supporting college projects and guiding students towards success. Whether you need assistance in developing your project or seeking guidance in writing clean and functional code, our experienced professionals are here to help. We understand the importance of project documentation in academic settings, and we can assist you in preparing comprehensive and concise documentation that meets your college's requirements. With our expertise and support, you can confidently tackle your college project, gain practical skills, and deliver a remarkable outcome that reflects your capabilities. Contact us today to embark on a collaborative journey towards excellence in your college project.
+---
