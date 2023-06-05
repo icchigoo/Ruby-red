@@ -1,6 +1,6 @@
 ---
 banner:
-  title: Let us solve your critical website development challenges
+  title: Building exceptional websites, apps, and software solutions to elevate your digital presence
   content: "Revolutionize Your Business with Next-Generation Software Solutions
 Unleash Innovation, Efficiency, and Growth
 Experience Seamless Integration and Streamlined Workflows
