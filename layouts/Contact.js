@@ -1,21 +1,30 @@
-import config from "@config/config.json";
-import { markdownify } from "@lib/utils/textConverter";
+import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
+import { markdownify } from '@lib/utils/textConverter';
+import config from '@config/config.json';
 
 const Contact = ({ data }) => {
   const { frontmatter } = data;
   const { title, info } = frontmatter;
   const { contact_form_action } = config.params;
 
+  const [state, handleSubmit] = useForm('xvonjrlo');
+
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
+  }
+
   return (
     <section className="section">
       <div className="container">
-        {markdownify(title, "h1", "text-center font-normal")}
+        {markdownify(title, 'h1', 'text-center font-normal')}
         <div className="section row pb-0">
           <div className="col-12 md:col-6 lg:col-7">
             <form
               className="contact-form"
-              method="POST"
-              action={contact_form_action}
+              onSubmit={handleSubmit}
+              // method="POST"
+              // action={contact_form_action}
             >
               <div className="mb-3">
                 <input
@@ -30,15 +39,21 @@ const Contact = ({ data }) => {
                 <input
                   className="form-input w-full rounded"
                   name="email"
+                  id="email"
                   type="email"
                   placeholder="Your email"
                   required
+                />
+                <ValidationError
+                  prefix="Email"
+                  field="email"
+                  errors={state.errors}
                 />
               </div>
               <div className="mb-3">
                 <input
                   className="form-input w-full rounded"
-                  name="subject"
+                  name="subject" // Add name attribute
                   type="text"
                   placeholder="Subject"
                   required
@@ -49,20 +64,31 @@ const Contact = ({ data }) => {
                   className="form-textarea w-full rounded-md"
                   rows="7"
                   placeholder="Your message"
+                  id="message"
+                  name="message" // Add name attribute
+                />
+                <ValidationError
+                  prefix="Message"
+                  field="message"
+                  errors={state.errors}
                 />
               </div>
-              <button type="submit" className="btn btn-primary">
+              <button
+                type="submit"
+                className="{btn btn-primary state.submitting}"
+                disabled={state.submitting}
+              >
                 Send Now
               </button>
             </form>
           </div>
           <div className="content col-12 md:col-6 lg:col-5">
-            {markdownify(info.title, "h4")}
-            {markdownify(info.description, "p", "mt-4")}
+            {markdownify(info.title, 'h4')}
+            {markdownify(info.description, 'p', 'mt-4')}
             <ul className="contact-list mt-5">
               {info.contacts.map((contact, index) => (
                 <li key={index}>
-                  {markdownify(contact, "strong", "text-dark")}
+                  {markdownify(contact, 'strong', 'text-dark')}
                 </li>
               ))}
             </ul>
