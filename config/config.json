@@ -2,10 +2,9 @@
   "site": {
     "title": "Ruby Red",
     "base_url": "/",
-    "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
-    "logo_width": "100",
-    "logo_height": "25",
+    "logo_width": "75",
+    "logo_height": "75",
     "logo_text": "Bigspring Light"
   },
 
