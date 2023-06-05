@@ -8,7 +8,7 @@ const Contact = ({ data }) => {
   const { title, info } = frontmatter;
   const { contact_form_action } = config.params;
 
-  const [state, handleSubmit] = useForm('xvonjrlo');
+  const [state, handleSubmit] = useForm('xayzgbqe');
 
   if (state.succeeded) {
     return <p>Thanks for joining!</p>;
